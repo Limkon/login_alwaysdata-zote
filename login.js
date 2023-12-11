@@ -13,7 +13,7 @@ const { Client } = require('ssh2');
       const ssh = new Client();
       await new Promise((resolve, reject) => {
         ssh.on('ready', resolve).on('error', reject).connect({
-          host: 'ssh-mov.alwaysdata.net',
+          host: 'ssh-zote.alwaysdata.net',
           port: 22,
           username,
           password,
